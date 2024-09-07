@@ -58,5 +58,23 @@ function playGame() {
     }
 }
 
+// Get the button element
+const rockButton = document.getElementById('rock');
+const paperButton = document.getElementById('paper')
+const scissorsButton = document.getElementById('scissors')
+
+// Add a click event listener
+rockButton.addEventListener('click', function() {
+    alert('Button clicked!');
+});
+// Add a click event listener
+paperButton.addEventListener('click', function() {
+    alert('Button clicked!');
+});
+// Add a click event listener
+scissorsButton.addEventListener('click', function() {
+    alert('Button clicked!');
+});
+
 // Start the game
 playGame();
